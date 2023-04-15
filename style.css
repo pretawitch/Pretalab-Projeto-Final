@@ -2,9 +2,12 @@
     box-sizing: border-box;
     margin: 0px;
 }
+
 #menu {
-    background-color: aquamarine;
+    background-color: #7bdff2;
+    ;
 }
+
 #menu ul {
     display: flex;
     padding: 30px;
@@ -12,18 +15,211 @@
     align-items: flex-end;
     gap: 180px;
 }
+
 #menu ul li {
     list-style: none;
 }
 
 #menu ul li a {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto;
     font-weight: 500;
-    font-size: 14px;
-    color:cornsilk; 
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+#perfil img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#perfil h1 {
+    text-align: center;
+}
+
+.nome {
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 15px;
+    font-family: Roboto;
+    color: #91dbea;
+}
+
+.profissao {
+    font-weight: lighter;
+    font-size: 30px;
+    margin-top: -10px;
+    font-family: Roboto;
+    color: #85aab2;
+    margin-bottom: 20px;
+}
+
+#perfil p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1b6876;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: Roboto;
+    font-weight: 600px;
+    font-size: 40px;
+    font-family: Roboto;
+    color: #88adb5;
     text-decoration: none;
 }
 
-#perfil img {
-    width: 500px;
+h3 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 50px;
+    font-family: Roboto;
+    color: #91dbea;
 }
+.escola {
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 15px;
+    font-family: Roboto;
+    color: #91dbea;
+}
+.faculdade {
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 15px;
+    font-family: Roboto;
+    color: #91dbea;
+}
+#pretalab {
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+}
+.descricao1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: 15px;
+    font-family: Roboto;
+    color: #1b6876;
+    margin-bottom: 50px;
+}
+.descricao2 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: 15px;
+    font-family: Roboto;
+    color: #1b6876;
+    margin-bottom: 50px
+}
+
+.descricao3 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: 15px;
+    font-family: Roboto;
+    color: #1b6876;
+    margin-bottom: 50px
+}
+
+#contato {
+    background-color: #7bdff2;
+    ;
+}
+
+#contato ul {
+    display: flex;
+    padding: 30px;
+    justify-content: right;
+    align-items: flex-end;
+    gap: 180px;
+}
+
+#contato ul li {
+    list-style: none;
+}
+
+#contato ul li a {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+.descricao4 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: 15px;
+    font-family: Roboto;
+    color: #1b6876;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.descricao5 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: 15px;
+    font-family: Roboto;
+    color: #1b6876;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    
+}
+.link {
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+}
+.link2 {
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+}
+button {
+    font-family: arial;
+    font-weight: bold;
+    color: #14396A !important;
+    font-size: 14px;
+    text-shadow: 1px 1px 0px #7CACDE;
+    box-shadow: 0px 6px 6px #BEE2F9;
+    padding: 21px 40px;
+    border-radius: 27px;
+    border: 0px solid #3866A3;
+    background: #63B8EE;
+    margin: 10px;
+    margin-top: 15px;
+    margin-right: 180px;
+    margin-left: 30px;
+  }
+  button:hover {
+    color: #14396A !important;
+    background: #468CCF;
+  }
+  
+  
